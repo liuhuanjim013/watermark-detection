@@ -47,10 +47,10 @@ results = predictor.run([
     'images/watermark/2.jpg',
     'images/watermark/3.jpg',
     'images/watermark/4.jpg',
-    'images/clear/1.jpg',
-    'images/clear/2.jpg',
-    'images/clear/3.jpg',
-    'images/clear/4.jpg'
+    'images/clean/1.jpg',
+    'images/clean/2.jpg',
+    'images/clean/3.jpg',
+    'images/clean/4.jpg'
 ], num_workers=8, bs=8)
 for result in results:
     print('watermarked' if result else 'clean')
